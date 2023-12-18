@@ -57,7 +57,7 @@ public class Sketch extends PApplet {
     // Initialize game variables
     intSnowflakeSpeed = 1;
     dblGravity = 0.2;
-    intLives = 5;
+    intLives = 3;
     intScore = 0;
     
     // Set player position
@@ -128,7 +128,7 @@ public class Sketch extends PApplet {
    * @author Joshua Yin
    * @param none
    * @return void
-   */
+   */ 
   public void movement() {
 
     // Left-right movement
